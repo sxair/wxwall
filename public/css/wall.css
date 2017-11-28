@@ -1,0 +1,147 @@
+#app{
+    max-width: 500px;
+    margin: 0 auto;
+}
+#header{
+    width: 95%;
+    margin: 0 auto;
+}
+#bcg{
+    max-width: 500px;
+    z-index: -100;
+    width: 100%;
+    min-height: 100%;
+    position:fixed;
+    top:0;
+}
+ul>li>a{
+    text-align: center;
+    font-weight: 500;
+}
+#showfrom{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 90%;
+    text-align: center;
+}
+#sub{
+    text-align: right;
+}
+.showcon{
+    margin-bottom: 10px;
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    background: #222;
+}
+.showuser{
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+}
+.showcontent{
+    text-align: left;
+    margin: 0 auto;
+    text-indent: 2em;
+    width: 85%;
+    display:block;
+    font-size: 18px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.showdate{
+    display: inline-block;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 12px;
+    width: 48%;
+}
+.replydate{
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.showreply{
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.agree,.replybtn{
+    padding-left: 15px;
+    display: inline-block;
+}
+.agree{
+    font-size: 15px;
+}
+.onagree{
+    color: #ff3300;
+}
+.replybtn{
+    font-size: 15px;
+}
+.navbtm{
+    width: 80%;
+    height: 3px;
+    background: #ff3300;
+    opacity:0.90;
+    border-radius:10px;
+    margin: 0 auto;
+}
+.wa{
+    color: #fff;
+}
+#wall{
+    text-align: center;
+}
+.load{
+    font-size: 20px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    -webkit-animation:change 2s linear infinite;
+}
+#replyfrom{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.reply{
+    margin: 0 auto;
+    background: #337ab7;
+    width: 95%;
+    border-radius:10px;
+    opacity:0.90;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.refresh{
+    position: fixed;
+    height: 35px;
+    line-height: 20px;
+    right: 20px;
+    bottom: 20px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgba(47,39,38,.94);
+    border-radius: 50%;
+    color: #AAA4A9;
+}
+.back{
+    position: fixed;
+    height: 35px;
+    line-height: 20px;
+    right: 20px;
+    bottom: 65px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgba(47,39,38,.94);
+    border-radius: 50%;
+    color: #AAA4A9;
+}
+.nav > li > a{
+    padding:10px 5px;
+}
